@@ -1,3 +1,4 @@
+// Function by Peter Joseph & Mina Magdy
 void set_Password(char *get_in, int sz){
 for (int i = 0; i < sz;) {
     char ch = getch();
