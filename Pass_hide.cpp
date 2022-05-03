@@ -23,6 +23,7 @@ void set_Password(char *get_in, int sz){
 int main() {
     int sz = 20;
     char Pass[sz];
+    for(int i = 0 ; i < sz ; i++)   Pass[i] = '\0';
     cout << "Please Enter the Password: ";
     set_Password(Pass, sz);
     cout <<"Your Password is: " << Pass;
